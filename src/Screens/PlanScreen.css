@@ -1,0 +1,29 @@
+.planScreen>h4 {
+    border-bottom: 1px solid #282c2d;
+    padding-bottom: 10px;
+}
+
+.profileScreen__singlePlan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 0.5rem 1rem;
+}
+
+.profileScreen__singlePlan:hover {
+    color: white;
+}
+
+.profileScreen__singlePlan>p {
+    display: flex;
+    flex-direction: column;
+}
+
+.profileScreen__singlePlan>p>span>p {
+    font-size: 0.7rem;
+}
+
+.profileScreen__planButton {
+    background-color: #e50914;
+}
