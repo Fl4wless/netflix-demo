@@ -72,7 +72,6 @@ const PlanScreen = () => {
     });
   };
 
-  console.log(subscription);
   return (
     <div className="planScreen">
       {subscription && (
